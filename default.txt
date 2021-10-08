@@ -1,0 +1,28 @@
+[#Part: EXPINV Consignee]
+	
+	Local : Line: EXPINV SubTitle: Local: Field : EXPINV SubTitle : Delete: Set as      
+	
+	Local : Line: EXPINV SubTitle: Local: Field : EXPINV SubTitle : Add: Set as   : "Student Name"
+
+ [#Line: EXPSMP Signature]
+	 
+	Local : Field : Simple Field :Delete: Set as 
+	Local : Field : Simple Field :Add: Set as : "for  Shankar IAS Academy"
+	
+[#Part: EXPINV Buyer]
+	
+	Local : Line: EXPINV SubTitle: Local: Field : EXPINV SubTitle : Delete: Set as      
+	
+	Local : Line: EXPINV SubTitle: Local: Field : EXPINV SubTitle : Add: Set as   : "Student Name"
+
+[#Part: EXPINV Terms]
+	
+	Local : Line: EXPINV SubTitle: Local: Field : EXPINV SubTitle : Delete: Info
+	
+	Local : Line: EXPINV SubTitle: Local: Field : EXPINV SubTitle : Add: Info : "Batch Details"
+
+[#Part: EXPINV Number]
+	
+	Local : Line: EXPINV SubTitle: Local: Field : EXPINV SubTitle : Delete: Set as
+	
+	Local : Line: EXPINV SubTitle: Local: Field : EXPINV SubTitle : Add: Set as : "Voucher No"
